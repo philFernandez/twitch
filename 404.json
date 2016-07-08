@@ -1,0 +1,11 @@
+{
+  "readyState": 4,
+  "responseText": "{\"error\":\"Unprocessable Entity\",\"message\":\"Channel 'comster404' is unavailable\",\"status\":422}\n",
+  "responseJSON": {
+    "error": "Unprocessable Entity",
+    "message": "Channel 'comster404' is unavailable",
+    "status": 422
+  },
+  "status": 422,
+  "statusText": "status code 422"
+}

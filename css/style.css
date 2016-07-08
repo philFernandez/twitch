@@ -1,0 +1,80 @@
+h1 {
+  font-family: "Courier New", monospace; }
+
+body {
+  background-color: #4b3832;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%; }
+
+img {
+  width: 4em;
+  height: 4em;
+  margin-right: 5%;
+  border-radius: 50%;
+  border: solid black; }
+
+#main {
+  background-color: #dfe3ee;
+  border-radius: 25px;
+  border: solid #be9b7b;
+  text-shadow: black 0.03em 0.03em 0.03em;
+  background: transparent;
+  box-shadow: 0 0 30px black; }
+
+#top {
+  color: white;
+  background-color: #755c5c;
+  border-radius: 25px;
+  border: solid #be9b7b;
+  text-shadow: black 0.25em 0.25em 0.25em;
+  background: transparent;
+  box-shadow: 0 0 30px black; }
+
+.well {
+  background: #3b5998;
+  font-size: 1.2em;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 25px;
+  border: solid #4b3832;
+  box-shadow: 0 0 30px black; }
+
+.online {
+  border: solid #ffffff; }
+
+.menu {
+  position: relative;
+  left: 47%;
+  margin-bottom: 5%;
+  background-color: #be9b7b;
+  border: solid 1px black; }
+
+.dropdown {
+  position: absolute;
+  left: 95%;
+  padding-right: -30%;
+  padding-left: -30%; }
+
+.bounce {
+  margin-top: -1.5%; }
+
+.name {
+  padding-right: 5%;
+  font-family: "Consolas", monospace; }
+
+select.btn-mini {
+  height: auto;
+  line-height: 14px; }
+
+select.btn {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding-right: 16px; }
+
+select.btn-mini + .caret {
+  margin-left: -20px;
+  margin-top: 9px; }
+
+/*# sourceMappingURL=style.css.map */

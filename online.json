@@ -1,0 +1,60 @@
+{
+  "stream": {
+    "_id": 22111100864,
+    "game": "StarCraft II",
+    "viewers": 305,
+    "created_at": "2016-06-30T21:01:29Z",
+    "video_height": 720,
+    "average_fps": 60.872110038,
+    "delay": 0,
+    "is_playlist": false,
+    "_links": {
+      "self": "https://api.twitch.tv/kraken/streams/ogamingsc2"
+    },
+    "preview": {
+      "small": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ogamingsc2-80x45.jpg",
+      "medium": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ogamingsc2-320x180.jpg",
+      "large": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ogamingsc2-640x360.jpg",
+      "template": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ogamingsc2-{width}x{height}.jpg"
+    },
+    "channel": {
+      "mature": false,
+      "status": "[FR] SSL - Rediffusion - Group D.",
+      "broadcaster_language": "fr",
+      "display_name": "OgamingSC2",
+      "game": "StarCraft II",
+      "language": "fr",
+      "_id": 71852806,
+      "name": "ogamingsc2",
+      "created_at": "2014-09-24T15:06:58Z",
+      "updated_at": "2016-07-01T08:30:38Z",
+      "delay": null,
+      "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/ogamingsc2-profile_image-9021dccf9399929e-300x300.jpeg",
+      "banner": null,
+      "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/ogamingsc2-channel_offline_image-1570cf4930177aa3-1920x1080.jpeg",
+      "background": null,
+      "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/ogamingsc2-profile_banner-d418aed2c0ef7d35-480.jpeg",
+      "profile_banner_background_color": null,
+      "partner": true,
+      "url": "https://www.twitch.tv/ogamingsc2",
+      "views": 17903920,
+      "followers": 37022,
+      "_links": {
+        "self": "http://api.twitch.tv/kraken/channels/ogamingsc2",
+        "follows": "http://api.twitch.tv/kraken/channels/ogamingsc2/follows",
+        "commercial": "http://api.twitch.tv/kraken/channels/ogamingsc2/commercial",
+        "stream_key": "http://api.twitch.tv/kraken/channels/ogamingsc2/stream_key",
+        "chat": "http://api.twitch.tv/kraken/chat/ogamingsc2",
+        "features": "http://api.twitch.tv/kraken/channels/ogamingsc2/features",
+        "subscriptions": "http://api.twitch.tv/kraken/channels/ogamingsc2/subscriptions",
+        "editors": "http://api.twitch.tv/kraken/channels/ogamingsc2/editors",
+        "teams": "http://api.twitch.tv/kraken/channels/ogamingsc2/teams",
+        "videos": "http://api.twitch.tv/kraken/channels/ogamingsc2/videos"
+      }
+    }
+  },
+  "_links": {
+    "self": "https://api.twitch.tv/kraken/streams/OgamingSC2",
+    "channel": "https://api.twitch.tv/kraken/channels/OgamingSC2"
+  }
+}
