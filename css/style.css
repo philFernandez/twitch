@@ -1,5 +1,5 @@
 h1 {
-  font-family: "Courier New", monospace; }
+  font-family: "Century Gothic", serif; }
 
 body {
   background-color: #4b3832;
@@ -13,6 +13,13 @@ img {
   margin-right: 5%;
   border-radius: 50%;
   border: solid black; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }
+  a:hover {
+    color: #fff4e6;
+    text-decoration: none; }
 
 #main {
   background-color: #dfe3ee;
@@ -33,7 +40,9 @@ img {
 
 .well {
   background: #3b5998;
-  font-size: 1.2em;
+  font-size: 1em;
+  font-family: "Lucida Sans Unicode", monospace;
+  color: #ffffff;
   margin-right: 10%;
   margin-left: 10%;
   border-radius: 25px;
@@ -60,8 +69,10 @@ img {
   margin-top: -1.5%; }
 
 .name {
-  padding-right: 5%;
-  font-family: "Consolas", monospace; }
+  padding-right: 2%; }
+
+.game {
+  padding-right: 2%; }
 
 select.btn-mini {
   height: auto;

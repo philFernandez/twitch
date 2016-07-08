@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-	$('#top').append('<h1 class="text-center">Who\'s on Twitch?');
+	$('#top').append('<h1 class="text-center">Twitch Streamers</h1>');
 	$('#top').addClass('bounce animated slideInDown');
 
 	
@@ -68,10 +68,13 @@ $(document).ready(function() {
 		var game = data.stream.channel.game;
 		var stats = data.stream.channel.status;
 		var logo = data.stream.channel.logo;
-		$('#main').append('<div class="well online"><span class="name">'+name+'</span><span class="game">'+game+'</span><span>'+stats+'</span></div>');
+		$('#main').append('<div class="well online"><span class="name">'+name+':</span><span class="game">'+game+':</span><span>'+stats+'</span></div>');
 		$('.online').addClass('animated slideInUp');
 		$('div:gt(1)').not(':has(img)').prepend('<img src='+logo+'>');
 	}
+
+	
+
 
 	//Controls functionality of dropdown
 	$('#dropDown').change(setOptions);
