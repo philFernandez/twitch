@@ -1,5 +1,5 @@
 h1 {
-  font-family: "Century Gothic", serif; }
+  font-family: "Arial Black", sans-serif; }
 
 body {
   background-color: #4b3832;
@@ -15,14 +15,11 @@ img {
   border: solid black; }
 
 a {
-  text-decoration: none;
-  color: #ffffff; }
-  a:hover {
-    color: #fff4e6;
+  text-decoration: none; }
+  a:link {
     text-decoration: none; }
 
 #main {
-  background-color: #dfe3ee;
   border-radius: 25px;
   border: solid #be9b7b;
   text-shadow: black 0.03em 0.03em 0.03em;
@@ -30,17 +27,16 @@ a {
   box-shadow: 0 0 30px black; }
 
 #top {
-  color: white;
-  background-color: #755c5c;
+  color: #be9b7b;
   border-radius: 25px;
   border: solid #be9b7b;
-  text-shadow: black 0.25em 0.25em 0.25em;
+  text-shadow: grey 0.17em 0.17em 0.17em;
   background: transparent;
-  box-shadow: 0 0 30px black; }
+  box-shadow: 0 0 30px black;
+  -webkit-text-stroke: 1.5px grey; }
 
 .well {
   background: #3b5998;
-  font-size: 1em;
   font-family: "Lucida Sans Unicode", monospace;
   color: #ffffff;
   margin-right: 10%;
@@ -49,30 +45,64 @@ a {
   border: solid #4b3832;
   box-shadow: 0 0 30px black; }
 
+.offline:hover {
+  background: #8b9dc3; }
+
 .online {
   border: solid #ffffff; }
+  .online:hover {
+    background: #8b9dc3; }
 
 .menu {
   position: relative;
   left: 47%;
+  font-family: "Lucida Sans Unicode", monospace;
   margin-bottom: 5%;
-  background-color: #be9b7b;
-  border: solid 1px black; }
+  background-color: #dfe3ee;
+  border-radius: 25px;
+  border: solid #be9b7b;
+  background: transparent;
+  box-shadow: 0 0 30px black; }
 
-.dropdown {
-  position: absolute;
-  left: 95%;
-  padding-right: -30%;
-  padding-left: -30%; }
+select {
+  color: white; }
+  select:link {
+    color: white; }
+  select:hover {
+    color: white; }
+  select:visited {
+    color: white; }
+  select:active {
+    color: white; }
+
+select option {
+  color: black; }
 
 .bounce {
   margin-top: -1.5%; }
 
 .name {
-  padding-right: 2%; }
+  font-size: 1vw;
+  position: absolute;
+  top: 10%; }
 
 .game {
-  padding-right: 2%; }
+  font-size: 0.75vw;
+  padding-right: 2%;
+  position: absolute;
+  bottom: 40%; }
+
+.stats {
+  font-size: 0.75vw;
+  position: absolute;
+  bottom: 10%; }
+
+.closedName {
+  padding-right: 7%;
+  position: absolute; }
+
+.closedStat {
+  left: 70%; }
 
 select.btn-mini {
   height: auto;

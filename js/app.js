@@ -42,14 +42,13 @@ $(document).ready(function() {
 				console.log('account closed');
 			}
 		});
-
-
 	}
 
 	function closed(data) {
 		var message = data.responseJSON.message;
-		var name = message.split(' ')[1].replace(/'+/g,'');		
-		$('#main').append('<div class="well closed"><span class="name">'+name+'<span id="closedStat">...Account Closed</span></span></div>');
+		var name = message.split(' ')[1].replace(/'+/g,'');
+
+		$('#main').append('<div class="well closed"><span class="closedName">'+name+'</span><span class="closedStat">Account Closed</span></div>');
 		$('.closed').addClass('animated slideInUp');
 		$('div:gt(1)').not(':has(img)').prepend('<img src=images/closed.png>');
 	}
@@ -57,7 +56,8 @@ $(document).ready(function() {
 	function offline(data) {
 		var name = data.name;
 		var logo = data.logo;
-		$('#main').append('<div class="well offline"><span class="name">'+name+'</span></div>')
+		var channelURL = data.url;
+		$('#main').append('<a href='+channelURL+' target="_blank"><div class="well offline"><span class="name">'+name+'</span></div>');		
 		$('.offline').addClass('animated slideInUp');
 		$('div:gt(1)').not(':has(img)').prepend('<img src='+logo+'>');
 	}
@@ -68,12 +68,12 @@ $(document).ready(function() {
 		var game = data.stream.channel.game;
 		var stats = data.stream.channel.status;
 		var logo = data.stream.channel.logo;
-		$('#main').append('<div class="well online"><span class="name">'+name+':</span><span class="game">'+game+':</span><span>'+stats+'</span></div>');
+		var channelURL = data.stream.channel.url;
+		$('#main').append('<a href='+channelURL+' target="_blank"><div class="well online"><span class="name">'+name+'</span><span class="game">'+game+':</span><span class="stats">'+stats+'</span></div></a>');
+		
 		$('.online').addClass('animated slideInUp');
 		$('div:gt(1)').not(':has(img)').prepend('<img src='+logo+'>');
-	}
-
-	
+	}	
 
 
 	//Controls functionality of dropdown
@@ -97,40 +97,5 @@ $(document).ready(function() {
 				break;
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-	
-
-	
-
-	
-
-
-
-
-	
-
-
-
-	
-
-
-
-
-
-
-
-
-	
-
 });
 
